@@ -9,8 +9,8 @@ function clear() {
 }
 
 // $dibujo = [
-//     0 => ["\n\n|----------|\n\n|          |\n\n|\n\n|\n\n|\n\n|\n\n|\n\n|\n\n|\n\n|\n\n|\n\n|____"],
-//     1 => ["\n\n|----------|\n\n|          |\n\n|\n\n|\n\n|\n\n|\n\n|\n\n|\n\n|\n\n|\n\n|\n\n|____"]
+//     ["\n\n|----------|\n\n|          |\n\n|\n\n|\n\n|\n\n|\n\n|____"],
+//     ["\n\n|----------|\n\n|          |\n\n|\n\n|\n\n|\n\n|\n\n|____"],
 // ];
 
 $animales_salvajes = ["Leon", "Lobo", "Oso", "Tigre", "Leopardo", "Jaguar", "Rinoceronte", "Coyote", "Caiman", "Cobra", "Aguila", "Orca"];
@@ -41,7 +41,6 @@ do {
 
     $jugador_letra = strtolower($jugador_letra);
 
-    echo $jugador_letra;
 
     if (str_contains($elegir_palabra, $jugador_letra)) {
         
